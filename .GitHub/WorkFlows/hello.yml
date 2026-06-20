@@ -1,0 +1,30 @@
+# Workflow
+# Should Have Name
+name: Hello
+
+# om tell when work fllow should run (Give indentition by tab)
+
+on:
+  workflow_dispatch: 
+
+
+
+# Jobs
+# Should be inside the workflow shpuld do, there can be one or more  than one jobs, hence we write the jobs 
+# jobs in  an object  so need  indentation 
+
+Jobs:
+  Say-hello:
+    Runs-on: ubuntu-latest
+    Steps:
+      - name: say hello to everyone 
+        Run: echo "Hello SUraj "
+
+
+# Steps
+
+# Should be insite the job
+
+# Actions
+
+# Should be inside the Steps
